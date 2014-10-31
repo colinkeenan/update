@@ -13,7 +13,8 @@ BLUE="${BOLD}$(tput setaf 4)"
 YELLOW="${BOLD}$(tput setaf 3)"
 
 post_install() {
-    note "The script is named 'update' and the desktop calls it 'System Update'. Find it in the 'System' category or by seraching for update. Add 'System Update' to your panel for one-click system updating." 
+    note "
+    The script is named 'update' and the desktop calls it 'Update System'. Find it in the 'System' category or by seraching for update. Add 'Update System' to your panel for one-click system updating." 
 }
 
 
