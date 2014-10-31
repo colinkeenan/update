@@ -2,12 +2,12 @@
 
 pkgname=update
 pkgver=1.0
-pkgrel=3
-pkgdesc="GUI for 'mv': Adds 'Move or Rename' to 'open-with' context menu for most files."
+pkgrel=1
+pkgdesc="simple script and desktop file for doing a system update using yaourt"
 arch=('any')
 url="https://github.com/colinkeenan/update"
 license=('GPL')
-depends=('yad')       # had to use yad instead of zenity to have default values in forms
+depends=('yaourt')
 install=${pkgname}.install
 
 source=('update' 'update.desktop')
