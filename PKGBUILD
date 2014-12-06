@@ -11,7 +11,7 @@ depends=('yaourt')
 install=${pkgname}.install
 
 source=('update' 'update.desktop')
-md5sums=('0be87bf59a88a05c283ca252e3bcb020'
+md5sums=('a6f89b80805542244233e31e44c35e19'
          'b285ed4d13055f135a278c93208135bb')
 
 package() {

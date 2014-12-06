@@ -6,8 +6,6 @@ then
 	echo
 	echo yaourt -C
 	yaourt -C
-else
-	exit 1
 fi
 echo
 echo _____________________
