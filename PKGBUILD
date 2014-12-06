@@ -1,7 +1,7 @@
 # Maintainer: Colin Keenan <colinnkeenan at gmail dot com>
 
 pkgname=update
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc="simple script and desktop file for doing a system update using yaourt"
 arch=('any')
